@@ -1,4 +1,4 @@
-# Finance Dashboard Backend
+# Finance Dashboard Backend# Finance Dashboard Backend
 
 This project implements the backend for a financial dashboard system, managing users, roles, and financial records. It utilizes Node.js, Express, TypeScript, MongoDB, and Socket.io to provide a robust API layer and real-time dashboard updates.
 
@@ -55,3 +55,4 @@ By keeping `index.ts` minimal, the app separates server configuration (WebSocket
 
 ### 4. Real-time Feedback
 On any successful modification to the database (Create, Update, Delete), the Express `io` instance broadcasts a `dashboard_update` event so the frontend can optimistically or reactively fetch data.
+
